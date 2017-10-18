@@ -1,0 +1,34 @@
+{
+  "rules": {
+    "preset-jtf-style": {
+      "3.1.1.全角文字と半角文字の間": false,
+      "3.1.2.全角文字どうし": false,
+      "3.3.かっこ類と隣接する文字の間のスペースの有無": false,
+      "4.2.7.コロン(：)": false,
+      "4.3.1.丸かっこ（）": false,
+      "4.3.2.大かっこ［］": false
+    },
+    "ja-no-abusage": true,
+    "ja-no-redundant-expression": true,
+    "no-mixed-zenkaku-and-hankaku-alphabet": true,
+    "no-dropping-the-ra": true,
+    "max-ten": {
+      "max": 3
+    },
+    "no-doubled-conjunctive-particle-ga": true,
+    "no-doubled-conjunction": true,
+    "no-doubled-joshi": {
+      "min_interval": 1,
+      "strict": false,
+      "allow": []
+    },
+    "ja-hiragana-hojodoushi": true,
+    "ja-no-successive-word": true,
+    "no-mix-dearu-desumasu": {
+      "preferInHeader": "ですます",
+      "preferInBody": "ですます",
+      "preferInList": "ですます",
+      "strict": true
+    }
+  }
+}
