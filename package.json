@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "npm run textlint",
-    "textlint": "textlint *.md"
+    "textlint": "textlint ./md/**/*.md"
   },
   "repository": {
     "type": "git",
