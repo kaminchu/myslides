@@ -5,7 +5,10 @@
   "scripts": {
     "test": "npm run textlint",
     "textlint": "textlint ./md/**/*.md",
-    "build": "cp ./md/2017-06-17_NDS52.md ./PITCHME.md"
+    "build": "cp ./md/2017-06-17_NDS52.md ./PITCHME.md",
+    "revealinstall": "sh ./test/script/reveal_install.sh",
+    "prestart":"cp ./md/2017-06-17_NDS52.md ./reveal.js/example.md",
+    "start": "cd reveal.js && npm start"
   },
   "repository": {
     "type": "git",

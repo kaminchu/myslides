@@ -4,10 +4,26 @@
 勉強会での発表資料置き場
 
 ## 見れる場所
-https://gitpitch.com/kaminchu/myslides  
+https://gitpitch.com/kaminchu/myslides
 
 
 ## 運用
-01. 発表したい資料のファイル名を`package.json`の`script`にある`build`に書く  
-02. ターミナルで`npm run build`を叩くと`PITCHME.md`が直下に生成or上書きされる  
-03. ターミナルで`npm run test`を叩くとtextlintなどで文書がチェックされる  
+01. 発表したい資料のファイル名を`package.json`の`script`にある`build`に書く
+02. ターミナルで`npm run build`を叩くと`PITCHME.md`が直下に生成or上書きされる
+03. ターミナルで`npm run test`を叩くとtextlintなどで文書がチェックされる
+
+## ローカルでの確認方法
+最初
+```
+npm run revealinstall
+```
+
+起動
+```
+npm start
+```
+
+md編集しただけ
+```
+npm run prestart
+```
